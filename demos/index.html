@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+        <script type="text/javascript" src="../lib/jQuery/jquery.min.js"></script>
+        <script type="text/javascript" src="../src/js/svgToMarkup.js"></script>
+
+        <title>SVG-to-Markup Demo</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>SVG to Markup Demo</h1>
+            <button class="convert">Convert</button>
+            <ul>
+                <li><img src="images/logo_fluid_star.svg"></li>
+                <li><img src="images/floe-logo.svg"></li>
+            </ul>
+        </main>
+        <script>
+            $(".convert").on("click", function () {
+                svg2m.convertSVGs("img");
+            });
+        </script>
+    </body>
+</html>

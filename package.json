@@ -1,0 +1,22 @@
+{
+    "name": "svg-to-markup",
+    "description": "Converts an svg image file into the markup equivalent",
+    "version": "1.0.0",
+    "author": "Justin Obara",
+    "dependencies": {
+        "fluid-resolve": "1.2.0"
+    },
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "svg",
+        "web",
+        "markup",
+        "convert",
+        "jQuery"
+    ],
+    "repository": "git://github.com/jobara/svg-to-markup.git",
+    "main": "./src/module/fluid.js",
+    "engines": {
+        "node": ">=6.9.4"
+    }
+}
